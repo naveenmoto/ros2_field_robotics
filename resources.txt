@@ -12,10 +12,13 @@ Automatic addison blog links
 
 6. create-a-basic-publisher-and-subscriber-python-ros2-foxy/
 
-7. how-to-create-a-service-and-client-python-ros2-foxy/
+7. mastering-turtlesim-in-ros-2-foxy-fitzroy/
 
-8. how-to-install-ros-2-navigation-nav2/
+8. how-to-record-and-play-back-data-in-ros-2-foxy-fitzroy/
 
+9. how-to-create-a-service-and-client-python-ros2-foxy/
+
+10. how-to-install-ros-2-navigation-nav2/
 
 
 Official ROS-2 examples for navigation/ SLAM using turtlebot
