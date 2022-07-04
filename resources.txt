@@ -1,0 +1,35 @@
+Automatic addison blog links
+
+1.how-to-install-ros-2-foxy-fitzroy-on-ubuntu-linux/
+
+2.how-to-set-up-a-ros2-project-for-python-foxy-fitzroy/
+
+3. how-to-create-a-workspace-ros-2-foxy-fitzroy/
+
+4. how-to-create-a-package-ros-2-foxy-fitzroy/
+
+5. how-to-create-a-launch-file-in-ros-2-foxy-fitzroy/
+
+6. create-a-basic-publisher-and-subscriber-python-ros2-foxy/
+
+7. how-to-create-a-service-and-client-python-ros2-foxy/
+
+8. how-to-install-ros-2-navigation-nav2/
+
+
+
+Official ROS-2 examples for navigation/ SLAM using turtlebot
+
+https://ros2-industrial-workshop.readthedocs.io/en/latest/index.html
+
+
+Gazebo installation
+
+https://classic.gazebosim.org/tutorials?tut=ros2_installing&cat=connect_ros
+
+
+gazebo --verbose /opt/ros/foxy/share/gazebo_plugins/worlds/gazebo_ros_diff_drive_demo.world
+gedit /opt/ros/foxy/share/gazebo_plugins/worlds/gazebo_ros_diff_drive_demo.world
+ros2 topic pub /demo/cmd_demo geometry_msgs/Twist '{angular: {z: 0.1}}' -1
+	
+
