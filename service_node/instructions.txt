@@ -1,0 +1,32 @@
+This experiment - part of the exercises of Ros2 tutorial - shows the use of Ros2 service where a node named 'battery' sends a status message to a service to
+set/reset an array element in node 'led' - which publishes an array which is a proxy for leds.
+
+create a ros2workspace folder : /home/ros2_workspace
+
+Add service_node and led_interface folders to /home/ros2_workspace/src  
+
+    Folder structure
+    ros2_workspace
+        -src
+          -service_node
+          -led_interface
+
+Ros2 version:foxy
+ 
+--Build package--
+
+cd /home/ros2_workspace
+colcon build --packages-select service_node
+source install/setup.bash
+source /opt/ros/foxy/setup.bash
+  
+---To execute---
+
+ros2 launch  ros2_workspace/src/service_node/service_node_launch.py
+
+
+--To see the list of topics--
+    ros2 topics list
+
+--To see listen to a topic--
+    ros2 topic echo <topic_name> 
