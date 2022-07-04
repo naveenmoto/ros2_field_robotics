@@ -20,6 +20,8 @@ Automatic addison blog links
 
 10. how-to-install-ros-2-navigation-nav2/
 
+in case colcon build fails, make sure dependencies are installed 
+rosdep install -i --from-path src --rosdistro foxy -y
 
 Official ROS-2 examples for navigation/ SLAM using turtlebot
 
